@@ -3,3 +3,7 @@
 
 ## Domain Hierarchy.
 <img src="Images/DNS-Chart.svg">
+
+### TLD (Top Level Domain)
+
+A TLD is the most righthand part of a domain name. So, for example, the example.com TLD is **.com**.
