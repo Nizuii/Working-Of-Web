@@ -10,4 +10,8 @@ A TLD is the most righthand part of a domain name. So, for example, the example.
 
 ### Second Level Domain
 
-In the **example.com** the .com part is the TLD and example is the Second Level Domain. 
+In the **example.com** the .com part is the TLD and example is the Second Level Domain. The Second Level Domain is limited to 63 characters + the TLD. It can only use characters such as a-z, 0-9 and only hyphens.
+
+### Subdomain
+
+A subdomain sits on the left side of the second level domain using a period to seperate it. For example, in **alexander.example.com** the **alexander** part is the subdomain. The subdomain has the same creation restrictions as the second level domain, being limited to 63 characters and can only use characters such as a-z, 0-9 and only hyphens.
