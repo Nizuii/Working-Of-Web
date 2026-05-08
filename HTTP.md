@@ -38,4 +38,19 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
     <td>:443, :80</td>
     <td>The door on the server to knock on.</td>
   </tr>
+  <tr>
+    <td>Path</td>
+    <td>/user/profile</td>
+    <td>Which specific resource we want</td>
+  </tr>
+  <tr>
+    <td>Query</td>
+    <td>?tab=repos&sort=asc</td>
+    <td>Extra filters/parameters passed to server</td>
+  </tr>
+  <tr>
+    <td>Fragment</td>
+    <td>#pinned</td>
+    <td>Jumps to a section on the page (never sent to server)</td>
+  </tr>
 </table>
