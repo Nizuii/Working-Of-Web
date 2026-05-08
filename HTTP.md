@@ -15,6 +15,7 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
   </tr>
   <tr>
     <td>Scheme</td>
-    <td>`https://` or `http://`</td>
+    <td>https:// or http://</td>
+    <td>How to communicate - encrypted or not.</td>
   </tr>
 </table>
