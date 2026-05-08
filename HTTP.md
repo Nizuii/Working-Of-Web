@@ -75,7 +75,7 @@ POST /api/login HTTP/1.1
 
 ```bash
 Host: github.com              ← which site (one server can host many)
-Cookie: session=abc123        ← proof you're already logged in
+Cookie: session=abc123        ← proof you are already logged in
 Authorization: Bearer eyJ...  ← your identity token
 User-Agent: Chrome/120        ← what browser you are
 Content-Type: application/json ← what format the body is in
