@@ -13,4 +13,8 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
     <th>Example</th>
     <th>What it means</th>
   </tr>
+  <tr>
+    <td>Scheme</td>
+    <td>`https://` or `http://`</td>
+  </tr>
 </table>
