@@ -18,4 +18,24 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
     <td>https:// or http://</td>
     <td>How to communicate - encrypted or not.</td>
   </tr>
+  <tr>
+    <td>Subdomain</td>
+    <td>api., www., admin.</td>
+    <td>A sub section of the site.</td>
+  </tr>
+  <tr>
+    <td>Domain</td>
+    <td>github, google, instagram</td>
+    <td>The websites name.</td>
+  </tr>
+  <tr>
+    <td>TLD</td>
+    <td>.com, .org, .in</td>
+    <td>Top-Level domain</td>
+  </tr>
+  <tr>
+    <td>Port</td>
+    <td>:443, :80</td>
+    <td>The door on the server to knock on.</td>
+  </tr>
 </table>
