@@ -6,3 +6,11 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
 **URL** stands for **Uniform Resource Locator**. It's simply the address of something on the internet. Every single things online (a page, an image, an API endpoint, a file) has a URL. Lets break down the structure of the URL:
 
 <img src="Images/url-anatomy.svg"> 
+
+<table>
+  <tr>
+    <th>Part</th>
+    <th>Example</th>
+    <th>What it means</th>
+  </tr>
+</table>
