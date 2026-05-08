@@ -55,7 +55,7 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
   </tr>
 </table>
 
-## Request & Response
+## HTTP Request
 
 When your browser wants anything from the server, it sends requests. The request has 3 parts:
 
@@ -80,3 +80,10 @@ Authorization: Bearer eyJ...  ← your identity token
 User-Agent: Chrome/120        ← what browser you are
 Content-Type: application/json ← what format the body is in
 ```
+
+3. **The Body** - The actual data (Only in POST, PUT, PATCH - not GET)
+
+```bash
+{"username": "ali", "password": "secret123"}
+```
+
