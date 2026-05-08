@@ -54,3 +54,29 @@ HTTP is a protocol or set of rules used for communicating with web browsers for 
     <td>Jumps to a section on the page (never sent to server)</td>
   </tr>
 </table>
+
+## Request & Response
+
+When your browser wants anything from the server, it sends requests. The request has 3 parts:
+
+### 1. Request Line
+
+1. **The Request Line** - tells the server what action and which resource. Example:
+
+```bash
+POST /api/login HTTP/1.1
+```
+
+- `POST` = The method (action).
+- `/api/login` = The path (which resource)
+- `HTTP/1.1` = The protocol version
+
+2. **The Headers** - Metadata about the request, like sticky notes on letter.
+
+```bash
+Host: github.com              ← which site (one server can host many)
+Cookie: session=abc123        ← proof you're already logged in
+Authorization: Bearer eyJ...  ← your identity token
+User-Agent: Chrome/120        ← what browser you are
+Content-Type: application/json ← what format the body is in
+```
