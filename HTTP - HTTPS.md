@@ -13,3 +13,4 @@ You (Browser)                        Web Server
      |<------ HTTP Response --------------|
      |        "200 OK + page content"     |
 ```
+Everytime we visit a website, dozens of these request and response cycle happen in milliseconds.
