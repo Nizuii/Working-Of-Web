@@ -69,3 +69,9 @@ Browser                                    Server
    |                                          |
    |===== 5. All data now flows ENCRYPTED === |
 ```
+### What is the Certificate?
+When the server sends its certificate, it's basically showing us its ID card. It proves:
+- This server really is `google.com`.
+- A trusted authority verified this.
+- It hasn't expired.
+The certificate must be signed by **CA - Certificate Authority**. Lets think of CA as the passport offices of the internet. We cant make our own certificates and call it trusted.
