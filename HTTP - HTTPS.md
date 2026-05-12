@@ -43,3 +43,6 @@ My password is in plain text and is readable by anyone. This is called a Man-in-
 > **HTTPS = HTTP + TLS**
 
 That's it. HTTPS is just regular HTTP, but wrapped inside an encryption layer called TLS. In HTTP the message is in plain text but in HTTPS the message is locked or encrypted. Ony the reciever will be able to decrypt it. The default port of HTTPS is 443. HTTPS not only encrypts the data, it also provides tamper proof, identity verification and padlock in browser.
+
+### What is TLS?
+**TLS (Transport Layer Security)** is the
