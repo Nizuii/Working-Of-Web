@@ -86,3 +86,17 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
          ↓
       Your Browser ✅
 ```
+
+## HTTP Request Methods.
+┌─────────┬──────────────────────────────┬─────────────────────┐
+│ Method  │ What it does                 │ Real world example  │
+├─────────┼──────────────────────────────┼─────────────────────┤
+│ GET     │ Fetch/Read data              │ Opening a webpage   │
+│ POST    │ Send/Create data             │ Submitting a form   │
+│ PUT     │ Replace data completely      │ Updating a profile  │
+│ PATCH   │ Update data partially        │ Changing just email │
+│ DELETE  │ Remove data                  │ Deleting an account │
+│ HEAD    │ GET but no body returned     │ Check if page exists│
+│ OPTIONS │ Ask what methods are allowed │ Browser preflight   │
+│ TRACE   │ Diagnostic echo              │ Debugging (dangerous)│
+└─────────┴──────────────────────────────┴─────────────────────┘
