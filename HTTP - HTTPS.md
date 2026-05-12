@@ -55,17 +55,17 @@ Before any data flows, your browser and the server do a secret handshake to agre
 ```bash
 Browser                                    Server
    |                                          |
-   |——— 1. "Hello! I support these           |
-   |        encryption methods..."  ————————>|
+   |——— 1. "Hello! I support these            |
+   |        encryption methods..."  ————————> |
    |                                          |
-   |<——— 2. "Cool! Let's use THIS method.    |
-   |         Here's my Certificate" ---------|
+   |<——— 2. "Cool! Let's use THIS method.     |
+   |         Here's my Certificate" --------- |
    |                                          |
-   |——— 3. Browser VERIFIES the certificate  |
-   |    "Is this really Google? Let me check"|
+   |——— 3. Browser VERIFIES the certificate   |
+   |    "Is this really Google? Let me check" |
    |                                          |
-   |——— 4. Both sides generate a             |
-   |        SHARED SECRET KEY   <————————————|
+   |——— 4. Both sides generate a              |
+   |        SHARED SECRET KEY   <———————————— |
    |                                          |
-   |===== 5. All data now flows ENCRYPTED ===|
+   |===== 5. All data now flows ENCRYPTED === |
 ```
