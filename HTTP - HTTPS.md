@@ -36,4 +36,10 @@ Host: bank.com
 
 username=john&password=MySecret123
 ```
-My password is in plain text and is readable by anyone
+My password is in plain text and is readable by anyone. This is called a Man-in-the-Middle atatck. HTTP has zero protection against it. HTTPs was born to fix exactly this.
+
+## What is HTTPS?
+
+> **HTTPS = HTTP + TLS**
+
+That's it. HTTPS is just regular HTTP, but wrapped inside an encryption layer called TLS. In HTTP the message is in plain text but in HTTPS the message is locked or encrypted. Ony the reciever will be able to decrypt it.
