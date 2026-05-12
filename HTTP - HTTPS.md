@@ -29,3 +29,11 @@ Content-Length: 1234
 
 <html>...page content here...</html>
 ```
+So imagine I am in a cafe connected to their Wi-Fi. I open `http://bank.com` and type my credentials. An unknown man on the same Wi-Fi is running a tool called WireShark. So he captures the network traffic and they might be able to capture my credentials.
+```bash
+POST /login HTTP/1.1
+Host: bank.com
+
+username=john&password=MySecret123
+```
+My password is in plain text and is readable by anyone
