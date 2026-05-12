@@ -51,3 +51,21 @@ That's it. HTTPS is just regular HTTP, but wrapped inside an encryption layer ca
 2. 🔏 INTEGRITY     → No one can tamper with your data mid-transit  
 3. 🪪 AUTHENTICATION → You're actually talking to the REAL server
 ```
+Before any data flows, your browser and the server do a secret handshake to agree on encryption. Think of it like 2 spies meeting and agreeing on a secret code before talking.
+```bash
+Browser                                    Server
+   |                                          |
+   |——— 1. "Hello! I support these           |
+   |        encryption methods..."  ————————>|
+   |                                          |
+   |<——— 2. "Cool! Let's use THIS method.    |
+   |         Here's my Certificate" ---------|
+   |                                          |
+   |——— 3. Browser VERIFIES the certificate  |
+   |    "Is this really Google? Let me check"|
+   |                                          |
+   |——— 4. Both sides generate a             |
+   |        SHARED SECRET KEY   <————————————|
+   |                                          |
+   |===== 5. All data now flows ENCRYPTED ===|
+```
