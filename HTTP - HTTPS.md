@@ -143,3 +143,13 @@ Raw GET request:
 ```bash
 GET /users/42 HTTP/1.1 Host: api.example.com Accept: application/json (no body — GET never has one)
 ```
+### POST - The Sender
+
+POST sends data to the server. It is used for logins, forms, file uploads etc... It sends data to the server inside the request body hidden from the URL.
+```bash
+POST /login HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+
+username=admin&password=Secret123
+```
