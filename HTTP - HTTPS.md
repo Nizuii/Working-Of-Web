@@ -135,3 +135,12 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
           <td>Debugging</td>
      </tr>
 </table>
+
+### GET - The Fetcher
+
+The most common method to retrive data. 
+```bash
+GET /search?q=hacking HTTP/1.1
+Host: google.com
+```
+GET doesn't modify anything but da
