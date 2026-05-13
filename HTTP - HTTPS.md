@@ -138,9 +138,4 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
 
 ### GET - The Fetcher
 
-The most common method to retrive data. 
-```bash
-GET /search?q=hacking HTTP/1.1
-Host: google.com
-```
-GET doesn't modify anything but da
+The HTTP GET method is the standard way a web client asks a server to send back a resource without changing anything on the server. Client asks for something, web browser sends a GET request that names the resource it wants (for example)
