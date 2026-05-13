@@ -15,4 +15,15 @@ When a user enters a URL, the browser sends an HTTP request to the web server, w
 - **DNS Resolution**: The browser contacts a DNS server to obtain the IP address of the requested domain.
 - **Establishing the connection**: Using the obtained IP address, the browser establishes a connection with the web server through TCP (TLS in the case of HTTPS)/
 - **Sending HTTP request**: The browser sends an HTTP request to the server.
-- 
+- **Processing Request**: The web server receives the request, processes it, and may interact with backend services or databases.
+- **Serving the response**: The server sends back a response containing status codes and requested files (HTML, CSS, JavaScript, images).
+- **Rendering the Web Page**: Based on the received data, the browser parses, executes scripts, and displays the web page to the user.
+
+## Types of Web Servers.
+
+### 1. Apache Web Server
+Apache web server is a widely used open source web server developed by Apache Software Foundation. It is written in C, it is highly customizable, and distributed under the Apache License 2.0.
+- It supports multiple OS (Windows, Linux, macOS).
+- Allows advanced routing.
+- Provides directory level configuration.
+
