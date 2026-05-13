@@ -99,4 +99,8 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
           <td>Fetching data</td>
           <td>Opening a webpage</td>
      </tr>
+     <tr>
+          <td>POST</td>
+          <td></td>
+     </tr>
 </table>
