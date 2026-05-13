@@ -101,6 +101,18 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
      </tr>
      <tr>
           <td>POST</td>
-          <td></td>
+          <td>Send data</td>
+          <td>Submitting a form</td>
      </tr>
+     <tr>
+          <td>PUT</td>
+          <td>Replace data completely</td>
+          <td>Updating a profile</td>
+     </tr>
+     <tr>
+          <td>PATCH</td>
+          <td>Update data partially</td>
+          <td>Changing just email</td>
+     </tr>
+     
 </table>
