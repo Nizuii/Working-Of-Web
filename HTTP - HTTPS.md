@@ -153,3 +153,11 @@ Content-Type: application/x-www-form-urlencoded
 
 username=admin&password=Secret123
 ```
+### PUT - The Replacer
+PUT completely replaces the entire resource at a given URL. Think of it like overwriting a file completely. If put is unprotected the attacker can overwrite any data.
+```bash
+PUT /users/profile HTTP/1.1
+Host: api.example.com
+
+{"name": "John", "email": "new@email.com", "role": "admin"}
+```
