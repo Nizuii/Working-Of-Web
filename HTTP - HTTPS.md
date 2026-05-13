@@ -89,7 +89,14 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
 
 ## HTTP Request Methods.
 <table>
-     <th>
-          <td>M</td>
-     </th>
+     <tr>
+          <th>Method</th>
+          <th>What it does</th>
+          <th>Real world example</th>
+     </tr>
+     <tr>
+          <td>GET</td>
+          <td>Fetching data</td>
+          <td>Opening a webpage</td>
+     </tr>
 </table>
