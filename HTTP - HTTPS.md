@@ -168,3 +168,23 @@ PATCH /users/profile HTTP/1.1
 
 {"email": "newemail@gmail.com"}
 ```
+
+### DELETE - The Destroyer
+DELETE tells the server to remove the specified resource. It usually has no body. After a successful DELETE, the resource should be gone — a repeat DELETE may return 404.
+```bash
+DELETE /posts/123 HTTP/1.1
+Host: api.example.com
+```
+
+### HEAD - The Silent Checker
+HEAD is identical to GET but the server only sends back headers — no body. Used to check if a resource exists, how large it is, or when it was last modified, without downloading it.
+```bash
+HEAD is identical to GET but the server only sends back headers — no body. Used to check if a resource exists, how large it is, or when it was last modified, without downloading it.
+```
+
+### OPTIONS - The Capability Asker
+OPTIONS asks the server "what HTTP methods do you support on this URL?" The server responds with an Allow header listing them. Browsers automatically send OPTIONS before cross-origin requests.
+```bash
+OPTIONS / HTTP/1.1
+Host: example.com
+```
