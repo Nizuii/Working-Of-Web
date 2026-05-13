@@ -4,3 +4,15 @@
 - Web server requests to browser requests by sending web pages.
 - HTTP server is a type of web server focused on HTTP communication.
 - Some web servers support additional protocols beyond HTTP.
+
+## Working
+
+When a user enters a URL, the browser sends an HTTP request to the web server, which processes it and returns the required resources to display the page.  
+
+<img width="800" height="188" alt="image" src="https://github.com/user-attachments/assets/71e1cb0a-9010-4205-95d4-9e748466b224" />
+
+- **Client Request**: In the web browser the user enters a URL.
+- **DNS Resolution**: The browser contacts a DNS server to obtain the IP address of the requested domain.
+- **Establishing the connection**: Using the obtained IP address, the browser establishes a connection with the web server through TCP (TLS in the case of HTTPS)/
+- **Sending HTTP request**: The browser sends an HTTP request to the server.
+- 
