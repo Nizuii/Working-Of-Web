@@ -27,3 +27,7 @@ Apache web server is a widely used open source web server developed by Apache So
 - Allows advanced routing.
 - Provides directory level configuration.
 
+### 2. Nginx Web Server
+Nginx is a high-performance web server known for speed, scalability and efficient handling of concurrent connections. It is also written in C.
+- Designed to handle high traffic efficiently and serve static content.
+- Functions as a reverse proxy and load balancer.
