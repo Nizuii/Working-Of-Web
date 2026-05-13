@@ -17,3 +17,7 @@ A website is a collection of web pages written in HTML. To make it accessible wo
    - Supports database interaction for dynamic content.
    - Easier to update, as changes can be applied globally without altering individual pages.
    Preferred for websites requiring frequent updates or user interaction eg E-commerce.
+
+## What is a web browser?
+
+**Web Browser** is an application software that allows users to access, search and view information on the web by communicating with the web servers. It enables smooth navigation of websites by retrieving and displaying online content in an interactive format.
