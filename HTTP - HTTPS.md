@@ -114,5 +114,24 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
           <td>Update data partially</td>
           <td>Changing just email</td>
      </tr>
-     
+     <tr>
+          <td>DELETE</td>
+          <td>Remove data</td>
+          <td>Deleting an account</td>
+     </tr>
+     <tr>
+          <td>HEAD</td>
+          <td>GET but no body returned</td>
+          <td>Checking if page exists</td>
+     </tr>
+     <tr>
+          <td>OPTIONS</td>
+          <td>Ask what methods are allowed</td>
+          <td>Browser preflight</td>
+     </tr>
+     <tr>
+          <td>TRACE</td>
+          <td>Diagnostic echo</td>
+          <td>Debugging</td>
+     </tr>
 </table>
