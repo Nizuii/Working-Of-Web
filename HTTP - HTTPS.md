@@ -179,7 +179,8 @@ Host: api.example.com
 ### HEAD - The Silent Checker
 HEAD is identical to GET but the server only sends back headers — no body. Used to check if a resource exists, how large it is, or when it was last modified, without downloading it.
 ```bash
-HEAD is identical to GET but the server only sends back headers — no body. Used to check if a resource exists, how large it is, or when it was last modified, without downloading it.
+HEAD /index.html HTTP/1.1
+Host: example.com
 ```
 
 ### OPTIONS - The Capability Asker
