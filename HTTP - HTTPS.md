@@ -161,3 +161,10 @@ Host: api.example.com
 
 {"name": "John", "email": "new@email.com", "role": "admin"}
 ```
+### PATCH - The Partial Updater
+It is like PUT but it only updates specific fields, not the whole resource. For example if we want to change a user's email, send just the email and nothing else changes.
+```bash
+PATCH /users/profile HTTP/1.1
+
+{"email": "newemail@gmail.com"}
+```
