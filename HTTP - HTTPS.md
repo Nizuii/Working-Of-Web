@@ -138,4 +138,8 @@ Certificate Authority (e.g. DigiCert, Let's Encrypt)
 
 ### GET - The Fetcher
 
-The HTTP GET method is the standard way a web client asks a server to send back a resource without changing anything on the server. Client asks for something, web browser sends a GET request that names the resource it wants (for example)
+The HTTP GET method is the standard way a web client asks a server to send back a resource without changing anything on the server. Client asks for something, web browser sends a GET request that names the resource it wants (for example /index.html).
+Raw GET request:
+```bash
+GET /users/42 HTTP/1.1 Host: api.example.com Accept: application/json (no body — GET never has one)
+```
