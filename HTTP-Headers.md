@@ -21,3 +21,5 @@ A server can instruct the browser to enforce security rules by including certain
 <img width="719" height="567" alt="image" src="https://github.com/user-attachments/assets/44ddbc7b-a478-4b78-9be0-341a596fe3de" />
 
 - **Strict-Transport-Security (HSTS)**: Forces the browser to only connect over HTTPS. Even if a user types `http://`. This blocks SSL stripping attacks where a MITM downgrades the connection to plain HTTP.
+- **Content-Security-Policy (CSP)**: The most powerful security header. It tells the browser exactly which sources of scripts, images and styles are allowed. If an attacker injects a <script> tag pointing to their evil server, CSP blocks it from running.
+- **X-Frame-Options**: Prevents your page from being loaded inside an <iframe> on another site. Without this, an attacker can overlay an invisible iframe over a button on their page (clickjacking) and trick users into clicking something on your site without knowing.
