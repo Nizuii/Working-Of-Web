@@ -10,7 +10,7 @@ Think of headers like the envelope on a letter, they tell the postal system (and
 ## Types of HTTP Headers
 Headers are grouped by their purpose. Here is what each type does:
 
-**Request Headers**: Sent by the browser to the server. They tell the server who you are and what you want. Examples: `Host`, `User-Agent`, `Accept`, `Cookie`, `Authorization`.  
-**Response Headers**: Sent by the server back to the browser. They tell the browser how to handle the response. Example: `content0type`, `set-cookie`, `location`.  
-**General Headers**: It can appear in both request and response.  
-**Security Headers**: A special category of response headers that tell the browser to enforce security protections.
+- **Request Headers**: Sent by the browser to the server. They tell the server who you are and what you want. Examples: `Host`, `User-Agent`, `Accept`, `Cookie`, `Authorization`.  
+- **Response Headers**: Sent by the server back to the browser. They tell the browser how to handle the response. Example: `content0type`, `set-cookie`, `location`.  
+- **General Headers**: It can appear in both request and response.  
+- **Security Headers**: A special category of response headers that tell the browser to enforce security protections.
