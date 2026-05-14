@@ -14,3 +14,7 @@ Headers are grouped by their purpose. Here is what each type does:
 - **Response Headers**: Sent by the server back to the browser. They tell the browser how to handle the response. Example: `content0type`, `set-cookie`, `location`.  
 - **General Headers**: It can appear in both request and response.  
 - **Security Headers**: A special category of response headers that tell the browser to enforce security protections.
+
+## HTTP Security Headers.
+A server can instruct the browser to enforce security rules by including certain headers in the response. If these headers are missing, attackers can exploit the browser itself against the users through XSS, clickjacking, protocol downgrader attacks and more. Think of security headers as the server saying "Heyy browser, here are the rules you must follow when displaying my content."
+<img width="719" height="567" alt="image" src="https://github.com/user-attachments/assets/44ddbc7b-a478-4b78-9be0-341a596fe3de" />
