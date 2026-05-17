@@ -11,10 +11,12 @@ Lets compare both apache and nginx with a restaurant analogy.
   </tr>
   <tr>
     <td>
-      Apache assigns a dedicated waiter (a process/thread) to each customers the moment they walk in. The waiters stay with them the whole time even when the customer is just thinking about what to order. Works great for small restaurants. Gets overwhelmed when 10,000 customers arrive at once. We would need 10,000 waiters. 
+      Apache assigns a dedicated waiter (a process/thread) to each customers the moment they walk in. The waiters stay with them the whole time even when the customer is just thinking about what to order.  
+      Works great for small restaurants. Gets overwhelmed when 10,000 customers arrive at once. We would need 10,000 waiters. 
     </td>
     <td>
-      Nginx uses a single fast manager who keeps an eye on all tables simultaneously. When a customer needs something, the manager quickly handles it and moves on to the next. No waiter is ever idle. Built for massive crowds. 10,000 customers? The same manager handles them all efficiently.
+      Nginx uses a single fast manager who keeps an eye on all tables simultaneously. When a customer needs something, the manager quickly handles it and moves on to the next. No waiter is ever idle.  
+      Built for massive crowds. 10,000 customers? The same manager handles them all efficiently.
     </td>
   </tr>
 </table>
