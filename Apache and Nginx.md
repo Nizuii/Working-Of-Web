@@ -25,3 +25,17 @@ Lets compare both apache and nginx with a restaurant analogy.
 
 <img width="877" height="252" alt="image" src="https://github.com/user-attachments/assets/b5f2d256-5af1-46ce-96de-3864d6b70415" />
 
+### Apache
+
+- Born in 1995.
+- It is widely used and have a lots of documentation.
+- It can run PHP directly.
+- It is slower under very high traffic.
+
+### Nginx
+
+- Born in 2004.
+- Built to handle massive traffic efficiently.
+- Extremely fast at serving static files
+- Often used as a reverse proxy (traffic router)
+- Lower memory usage under heavy load
