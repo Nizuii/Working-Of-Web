@@ -39,3 +39,13 @@ Lets compare both apache and nginx with a restaurant analogy.
 - Extremely fast at serving static files
 - Often used as a reverse proxy (traffic router)
 - Lower memory usage under heavy load
+
+## Why does this matter for cybersecurity?
+
+### Read Team - Finding Weakness.
+
+Knowing which web server is running helps attackers look for known vulnerabilities. Apache and Nginx have different CVEs (known security holes), different default configs, and different ways they can be misconfigured.
+
+### Blue Team - Hardening the server
+
+Defenders learn to lock down web server configs — disable directory listing, hide version numbers, set proper headers — to make it harder for attackers to gain a foothold.
