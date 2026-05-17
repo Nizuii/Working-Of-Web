@@ -20,3 +20,8 @@ Lets compare both apache and nginx with a restaurant analogy.
     </td>
   </tr>
 </table>
+
+## What does each one actually does.
+
+<img width="877" height="252" alt="image" src="https://github.com/user-attachments/assets/b5f2d256-5af1-46ce-96de-3864d6b70415" />
+
