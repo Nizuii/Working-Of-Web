@@ -5,5 +5,3 @@
 - **Active Reconaissance**: Directly probing the target (Port Scanning, Service Detection).
 
 ## 1. Domain Reconaissance, WHOIS & DNS.
-<img width="1185" height="746" alt="image" src="https://github.com/user-attachments/assets/15ddcade-eeea-490a-9de7-6813051a59d6" />
-<img width="1185" height="746" alt="image" src="https://github.com/user-attachments/assets/a9184e7b-c744-458c-bb62-375f6e10d2d0" />
