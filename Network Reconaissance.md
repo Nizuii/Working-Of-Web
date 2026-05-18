@@ -5,3 +5,17 @@
 - **Active Reconaissance**: Directly probing the target (Port Scanning, Service Detection).
 
 ## 1. Domain Reconaissance, WHOIS & DNS.
+
+WHOIS is a public database that stores registration info about domain names - who owns them, when they expire, what nameservers they use.
+
+DNS Recon maps out the domain's structure by querying DNS records.
+
+- `A` record - IP address of a domain.
+- `MX` record - Mail Servers.
+- `NS` record - Nameserver.
+- `CNAME` - Aliases/subdomains.
+- `TXT` - Various text records.
+
+Tools used: `whois`, `nslookup`, `dig`, `dnsx`, `subdinder`.
+
+<img width="1869" height="1030" alt="image" src="https://github.com/user-attachments/assets/d39b31a6-4070-45c0-8423-9da0b85c4481" />
