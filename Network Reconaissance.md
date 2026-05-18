@@ -5,3 +5,6 @@
 - **Active Reconaissance**: Directly probing the target (Port Scanning, Service Detection).
 
 ## 1. Domain Reconaissance, WHOIS & DNS.
+- snjkasj
+- sdadas
+- asfdasdfa
