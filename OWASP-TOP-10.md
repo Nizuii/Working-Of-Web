@@ -6,4 +6,10 @@
 Access contols sometimes called authorization is how a web application grants access to content and functions to some users and not others. These checks are performed after authentication, and govern what ‘authorized’ users are allowed to do.
 
 ### How it emerges:
-1. **Missing Server Side Checks**: 
+1. **Missing Server Side Checks**: A developer hides the "Delete User" button in the UI, but forgets to check on the server whether the person sending the delete request actually has admin rights. An attacker doesn't need the button — they can just send the request directly.
+2. **Insecure Direct Object References (IDOR)**: Our profile URL is `example.com/user/1001`. What happens if we change 1001 to 1002? If the server doesn't verify that you own account 1002, you will see someone else's private data.
+3. **Privilege Escalation**: It means a normal user trying to gain higher privileges. Example: If a form submission includes a hidden filed `role=user`. An attacker intercepts that with a tool like Burp suite and changes it to `role=admin` before sending it.
+4. **JWT/Token manipulation**: Applications sometimes use tokens (like JWTs) that encode your role. If these tokens aren't properly signed or validated, an attacker can modify the payload — changing `"role": "user"` to `"role": "admin"`.
+
+### How to Mitigate:
+1. 
