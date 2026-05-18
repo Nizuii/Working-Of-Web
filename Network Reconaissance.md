@@ -28,5 +28,10 @@ Once we know the IP range, we ping sweep to find which host are alive, then port
 - `-sV` - Service version detection.
   <img width="1874" height="1029" alt="image" src="https://github.com/user-attachments/assets/03ef4f43-bc4e-4048-a3cc-5dd515bb49de" />
 - `-A` - Aggressive scan (OS, version, scripts)
+  <img width="1878" height="1042" alt="image" src="https://github.com/user-attachments/assets/0c280a41-dcdb-4894-bbcc-1c0f8f6b3cda" />
+- `-p 1-2000` - Specific port ranges.
+  <img width="1881" height="1015" alt="image" src="https://github.com/user-attachments/assets/4186f135-223e-48b8-92a2-b21619625ee9" />
 
-  
+## 3.Directory Enumeration using Burp Suite.
+
+This is about discovering hidden directories and files on a web server — things like /admin, /backup, /config that aren't linked publicly.
