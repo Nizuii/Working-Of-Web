@@ -26,5 +26,7 @@ Once we know the IP range, we ping sweep to find which host are alive, then port
 - `-sn` - Ping sweep (find live hosts).
   <img width="1859" height="1024" alt="image" src="https://github.com/user-attachments/assets/2e515dcf-2f78-47e6-9895-15236bcfffce" />
 - `-sV` - Service version detection.
+  <img width="1874" height="1029" alt="image" src="https://github.com/user-attachments/assets/03ef4f43-bc4e-4048-a3cc-5dd515bb49de" />
+- `-A` - Aggressive scan (OS, version, scripts)
 
   
