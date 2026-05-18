@@ -12,4 +12,8 @@ Access contols sometimes called authorization is how a web application grants ac
 4. **JWT/Token manipulation**: Applications sometimes use tokens (like JWTs) that encode your role. If these tokens aren't properly signed or validated, an attacker can modify the payload — changing `"role": "user"` to `"role": "admin"`.
 
 ### How to Mitigate:
-1. 
+1.  Enforce checks on the server, always. Never trust the client. Every sensitive action must be verified on the server. It doesn't matter what the UI shows or hides.
+2.  Deny by default. Your code should start from "deny everything" and then explicitly grant access. Never start from "allow everything" and try to block.
+3.  Check ownership, not just login. For IDOR attacks, don't just check "is the user logged in?" — check "does this logged-in user own this resource?"
+4.  Use proper role-based access control (RBAC). Define clear roles (user, moderator, admin) and enforce them consistently across every endpoint and function.
+5.  Rate limiting and monitoring. If someone is hitting /user/1, /user/2, /user/3 rapidly, that's suspicious. Log and alert on unusual access patterns.
