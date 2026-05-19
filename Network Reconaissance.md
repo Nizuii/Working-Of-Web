@@ -32,6 +32,7 @@ Once we know the IP range, we ping sweep to find which host are alive, then port
 - `-p 1-2000` - Specific port ranges.
   <img width="1881" height="1015" alt="image" src="https://github.com/user-attachments/assets/4186f135-223e-48b8-92a2-b21619625ee9" />
 
-## 3.Directory Enumeration using Burp Suite.
+## 3.Directory Enumeration using Go Buster.
 
 This is about discovering hidden directories and files on a web server — things like /admin, /backup, /config that aren't linked publicly.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/56e19d74-b873-4abc-ac0d-f3eec96474b7" />
